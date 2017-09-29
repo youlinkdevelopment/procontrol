@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.youlink.procontrol" version="0.9.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Procontrol</name>
+    <description>
+        Procontrol Mobile.
+    </description>
+    <author email="youlinkdevelopment@gmail.com" href="http://www.youlink.com.br">
+        YouLink Development Team
+    </author>
+    <icon platform="android" qualifier="ldpi" src="ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="xhdpi.png" />
+    <icon platform="android" qualifier="xxhdpi" src="xxhdpi.png" />
+    <icon platform="android" qualifier="xxxhdpi" src="xxxhdpi.png" />
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
