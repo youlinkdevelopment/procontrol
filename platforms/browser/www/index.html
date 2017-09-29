@@ -5,13 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>Procontrol</title>
-    <link rel="stylesheet" href="/procontrol.css">
+    <link rel="stylesheet" href="procontrol.css">
 </head>
 
 <body>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <div class="title"><img src="img/mainlogo.png" alt="Procontrol" width="100%" /></div>
+    <div id="sidenavID" class="sidenav">
+        <ul class="sidenavUL">
+            <li onclick="menuClick(4)">Cadastros</li>
+            <li onclick="menuClick(1)">Principal</li>
+            <li onclick="menuClick(3)">Mensagens</li>
+            <li onclick="menuClick(5)">Reservas</li>
+            <li onclick="menuClick(2)">Notícias</li>
+            <li onclick="clearAccess()">Sair</li>"
+        </ul>
+    </div>
+    <div id="title" class="title"></div>
     <div id="mainwrapp"></div>
 </body>
 
