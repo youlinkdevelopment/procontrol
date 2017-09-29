@@ -129,6 +129,7 @@ function drawMainScreen() {
 }
 
 function clearAccess() {
+    toogleSidenav()
     if (confirm("Deseja desconectar do Procontrol ?")) {
         window.localStorage.clear();
         windowstatus = 0;
